@@ -35,6 +35,22 @@ TEST(FooExpectionTest, HandleZeroInput) {
     EXPECT_THROW(foo(0,0), const char *);
 }
 
+TEST(FloatTest, FloatEqInput) {
+    EXPECT_PRED_FORMAT2(testing::FloatLE, 4, 5);
+}
+
+template<typename T> class FooType {
+public:
+    void bar() {
+        testing::StaticAssertTypeEq<int, T>();
+    }
+};
+
+TEST(TypeAssertionTest, Demo) {
+    FooType<bool> foo;
+    foo.bar();
+}
+
 int main(int argc, char * argv[]) {
     //testing::GTEST_FLAG(output) = "xml:";
     testing::InitGoogleTest(&argc, argv);
