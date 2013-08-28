@@ -1,0 +1,8 @@
+Script started on 2013年08月18日 星期日 08时54分22秒
+lili@lili-debian:~/workspace/mycode/golang/test$ lili@lili-debian:~/workspace/mycode/golang/test$ 总用量 4 -rw-r--r-- 1 lili lili 77 8月 17 11:37 test.go -rw-r--r-- 1 lili lili 0 8月 18 08:54 typescript
+lili@lili-debian:~/workspace/mycode/golang/test$ > tr: 当以反相模式替换字符类型时，字符串2 必须将所有字符映射到一个字域
+lili@lili-debian:~/workspace/mycode/golang/test$           4  rw r  r   1 lili lili 77 8    17 11 37 test go  rw r  r   1 lili lili 0 8    18 08 54 typescript lili@lili-debian:~/workspace/mycode/golang/test$ /home/lili/workspace/mycode/golang/test
+lili@lili-debian:~/workspace/mycode/golang/test$ lili@lili-debian:~/workspace/mycode/golang$ /home/lili/workspace/mycode/golang
+lili@lili-debian:~/workspace/mycode/golang$ exit
+
+Script done on 2013年08月18日 星期日 09时07分03秒

@@ -1,0 +1,197 @@
+acl2 - Computational Logic for Applicative Common Lisp: main binary
+acl2-books - Computational Logic for Applicative Common Lisp: compiled libraries
+acl2-books-certs - Computational Logic for Applicative Common Lisp: library certificates
+acl2-books-source - Computational Logic for Applicative Common Lisp: library sources
+acl2-doc - Computational Logic for Applicative Common Lisp: documentation
+acl2-emacs - Computational Logic for Applicative Common Lisp: emacs interface
+acl2-infix - Computational Logic for Applicative Common Lisp: infix interface
+acl2-infix-source - Computational Logic for Applicative Common Lisp: infix source
+acl2-source - Computational Logic for Applicative Common Lisp: source files
+anthy-el - input method for Japanese - elisp frontend
+apel - portable library for emacsen
+aplus-fsf-el - XEmacs lisp for A+ development
+auctex - integrated document editing environment for TeX etc.
+auto-install-el - Auto install elisp file
+cl-bordeaux-threads - Portable shared-state concurrency for Common Lisp
+brltty - Access software for a blind person using a braille display
+cl-brlapi - Common Lisp bindings for BrlAPI
+buildapp - application to create common lisp images
+c-sig - signature tool for GNU Emacs
+cl-cffi - The Common Foreign Function Interface for Common Lisp
+latex-cjk-common - LaTeX macro package for CJK (Chinese/Japanese/Korean)
+cl-alexandria - A collection of portable Common Lisp utilities
+cl-asdf - Another System Definition Facility
+cl-awk - Common Lisp package with the features of AWK and more
+cl-babel - A charset encoding/decoding library, not unlike GNU libiconv
+cl-base64 - Common Lisp package to encode and decode base64 with URI support
+cl-closer-mop - Cross Implementation AMOP library
+cl-cluck - Common Lisp Microcontroller Clock Calculator
+cl-clx-sbcl - X11 Common Lisp client library for SBCL
+cl-contextl - context orientation for Common Lisp
+cl-fftw3 - Common Lisp package for using the FFTW3 library
+cl-flexichain - An efficient gap buffer with a well-defined external protocol
+cl-ftp - Common Lisp FTP library
+cl-getopt - Common Lisp utility for command-line processing
+cl-hyperobject - Common Lisp library for hyperobjects
+cl-irc - Common Lisp Internet Relay Chat Library
+cl-irc-logger - Internet Relay Channel Logger
+cl-kmrcl - General Utilities for Common Lisp Programs
+cl-launch - uniform frontend to running Common Lisp code from the shell
+cl-lexer - Lexical-analyzer-generator package for Common Lisp
+cl-lml - Lisp Markup Language
+cl-lml2 - Lisp Markup Language
+cl-lw-compat - LispWorks Compatibility Library
+cl-mcclim - Common Lisp graphic user interface toolkit
+cl-mcclim-doc - Graphic user interface package for Common Lisp programs
+cl-mcclim-examples - Common Lisp graphic user interface toolkit
+cl-md5 - Common Lisp package for MD5 Message Digests
+cl-modlisp - Common Lisp interface to the Apache mod-lisp module
+cl-pg - Common Lisp library that provides a socket level postgresql interface
+cl-photo - photographic calculator in Common Lisp
+cl-pipes - Common Lisp library for pipes or streams
+cl-plplot - CFFI based interface to the PLplot scientific plotting library
+cl-acl-compat - Compatibility layer for Allegro Common Lisp
+cl-aserve - Portable Aserve
+cl-htmlgen - HTML generation library for Common Lisp programs
+cl-postoffice - SMTP, POP, & IMAP interface library for Common Lisp Programs
+cl-ppcre - Portable Regular Express Library for Common Lisp
+cl-ptester - Test suite for Common Lisp programs
+cl-pubmed - Common Lisp package to query Pubmed medical literature database
+cl-puri - Common Lisp Portable URI Library
+cl-regex - Common Lisp regular expression compiler/matcher
+cl-reversi - Reversi game for Common Lisp
+cl-rlc - Common Lisp RLC Circuit Simulator
+cl-rsm-mod - McIntire's Common Lisp Modular Arithmetic Library
+cl-rss - Common Lisp RSS processor
+cl-rt - Common Lisp regression tester from MIT
+cl-salza - Common Lisp package to write compressed data
+cl-spatial-trees - Spatial trees Common Lisp library
+cl-split-sequence - Common Lisp package split a sequence of objects
+cl-sql - SQL Interface for Common Lisp
+cl-sql-aodbc - CLSQL database backend, AODBC
+cl-sql-mysql - CLSQL database backend, MySQL
+cl-sql-odbc - CLSQL database backend, ODBC
+cl-sql-postgresql - CLSQL database backend, PostgreSQL via library
+cl-sql-postgresql-socket - CLSQL database backend, PostgreSQL via sockets
+cl-sql-sqlite - CLSQL database backend, SQLite
+cl-sql-sqlite3 - CLSQL database backend, SQLite3
+cl-sql-uffi - Common UFFI functions for CLSQL database backends
+cl-uffi - Universal Foreign Function Library for Common Lisp
+cl-uffi-tests - Regression tests for UFFI Common Lisp Library
+cl-usocket - Common Lisp socket library
+cl-xlunit - Common Lisp eXtreme Lisp Unit Testing Package
+cl-xmls - XML Simple Parser for Common Lisp
+cl-xptest - Extreme programming test suite for Common Lisp package
+clfswm - A(nother) Common Lisp FullScreen Window Manager
+clisp - GNU CLISP, a Common Lisp implementation
+clisp-dev - GNU CLISP, a Common Lisp implementation (development files)
+clisp-doc - GNU CLISP, a Common Lisp implementation (documentation)
+clisp-module-berkeley-db - clisp module that adds an interface to Berkeley DB
+clisp-module-bindings-glibc - clisp module that adds the glibc bindings
+clisp-module-clx - clisp module that adds X11 bindings
+clisp-module-dbus - clisp module that adds an interface to D-Bus
+clisp-module-gdbm - clisp module that adds an interface to GNU DBM
+clisp-module-pcre - clisp module that adds libpcre support
+clisp-module-postgresql - clisp module that adds a PostgreSQL interface
+clisp-module-rawsock - clisp module that adds a low level socket interface
+clisp-module-wildcard - clisp module that adds wildcard matching
+clisp-module-zlib - clisp module that adds zlib support for vectors
+clojure1.2 - Lisp dialect for the JVM
+clojure1.4 - Lisp dialect for the JVM
+cmucl-source - CMUCL lisp sources
+common-lisp-controller - Common Lisp source and compiler manager
+crypt++el - Emacs-Lisp Code for handling compressed and encrypted files
+ddskk - efficient Japanese input system for emacsen
+develock-el - additional font-lock keywords for the developers on Emacs
+dh-lisp - Debhelper to support Common Lisp related packages
+dictionaries-common - Common utilities for spelling dictionary tools
+doxymacs - elisp package for making doxygen usage easier under Emacs
+ecasound-el - multitrack-capable audio recorder and effect processor (emacs)
+ecb - code browser for Emacs supporting several languages
+ecl - Embeddable Common-Lisp: has an interpreter and can compile to C
+ecl-doc - documentation for Embeddable Common-Lisp
+egg - Tamago Ver. 4 -- EGG Input Method Architecture for Emacsen
+el-get - install and manage elisp code for Emacs
+elib - Library of commonly-used Emacs functions
+elscreen - Screen for Emacsen
+gnus-bonus-el - Miscellaneous add-ons for Gnus
+vm-bonus-el - vm-bogofilter add-on for VM
+emacs-window-layout - window layout manager for emacs
+emacs23-el - GNU Emacs LISP (.el) files
+ess - Emacs mode for statistical programming and data analysis
+exuberant-ctags - build tag file indexes of source code definitions
+cl-flexi-streams - Flexi-streams: Flexible bivalent streams for Common Lisp
+gcl - GNU Common Lisp compiler
+gcl-doc - Documentation for GNU Common Lisp
+ghc-mod - Happy Haskell programming on Emacs
+goby - WYSIWYG presentation tool for Emacs
+haml-elisp - Emacs Lisp mode for the Haml markup language
+libghc-highlighting-kate-dev - syntax highlighting library based on Kate syntax descriptions
+libghc-highlighting-kate-doc - library documentation for highlighting-kate
+libghc-highlighting-kate-prof - highlighting-kate library with profiling enabled
+liblangscan-ruby - Ruby module of scanners for programming languages
+libapache2-mod-lisp - An Apache2 module that interfaces with Lisp environments
+idn - Command line and Emacs interface to GNU Libidn
+librep-dbg - debug symbols for librep
+librep-dev - development libraries and headers for librep
+librep9 - embeded lisp command interpreter library
+rep - lisp command interpreter
+rep-doc - documentation for the lisp command interpreter
+liece-dcc - DCC program for liece
+lush - Lisp Universal Shell Executable
+lush-library - Lisp Universal Shell Library
+lyskom-elisp-client - emacs client for LysKOM
+mailcrypt - Emacs interface to GPG and PGP
+maxima-src - Computer algebra system -- source code
+mhc - schedule management tool for emacsen
+emacs-mozc - Mozc for Emacs
+mpg123-el - front-end to mpg321/ogg321 media players for Emacs
+nethack-common - dungeon crawl game - common files
+nethack-console - dungeon crawl game - text-based interface
+nethack-lisp - dungeon crawl game - Lisp interface
+nethack-x11 - dungeon crawl game - X11 interface
+oaklisp-doc - Documentation for the Oaklisp dialect of Scheme
+paredit-el - Emacs minor mode for structurally editing Lisp code
+php-elisp - Emacs support for php files
+picolisp - Lisp interpreter and application server framework
+pymacs - interface between Emacs Lisp and Python
+pyrex-mode - emacs-lisp pyrex-mode for pyrex
+python-mode - Python mode for GNU Emacs and XEmacs
+cl-quicklisp - library manager for Common Lisp
+r5rs-doc - Revised(5) Report on the Algorithmic Language Scheme
+rabbit-mode - Emacs-lisp rabbit-mode for writing RD document using Rabbit
+rail - Replace Agent-string Internal Library
+rdtool-elisp - Emacs-lisp rd-mode for writing RD document
+rep-gtk - GTK+ binding for librep
+rep-gtk-gnome - Dummy package for transition
+librobert-hooke-clojure - Function wrapper library for Clojure
+sass-elisp - Emacs Lisp mode for the Sass markup language
+sawfish-data - sawfish architecture independent data
+sawfish-dbg - sawfish debugging symbols
+sawfish-lisp-source - sawfish lisp files
+sbcl - Common Lisp compiler and development system
+sbcl-doc - Documentation for Steel Bank Common Lisp
+sbcl-source - Source code files for SBCL
+scsh-common-0.6 - A `scheme' interpreter designed for writing system programs
+scsh - A `scheme' interpreter designed for writing system programs (default version)
+similarity-tester - Find lexical similarities between files
+cl-swank - Superior LISP Interaction Mode for Emacs (Lisp-side server)
+slime - Superior LISP Interaction Mode for Emacs
+sloccount - programs for counting physical source lines of code (SLOC)
+cl-speech-dispatcher - Common Lisp interface to Speech Dispatcher
+speechd-el - Emacs speech client using Speech Dispatcher
+speechd-el-doc-cs - speechd-el documentation in Czech
+src2tex - A converter from source program files to TeX format files
+stumpwm - tiling, keyboard driven Common Lisp window manager
+suikyo-elisp - Romaji Hiragana conversion library (elisp binding)
+texify - Beautify source code for use with LaTeX
+timidity-el - Emacs front end to Timidity++
+cl-trivial-features - An abstraction layer for the *features* that implementations use
+ucblogo - a dialect of lisp using turtle graphics famous for teaching kids
+wl - mail/news reader supporting IMAP for emacsen
+wl-beta - mail/news reader supporting IMAP for emacsen (development version)
+xchat-guile - Guile scripting plugin for XChat
+yc-el - Yet another Canna client for Emacsen
+yorick - interpreted language and scientific graphics
+aribas - arithmetic 解释器
+sawfish - 一个 X11 窗口管理器
