@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="5" failures="2" disabled="0" errors="0" timestamp="2013-08-28T20:32:06" time="0.001" name="AllTests">
+<testsuites tests="6" failures="2" disabled="0" errors="0" timestamp="2013-08-28T20:51:16" time="0.001" name="AllTests">
   <testsuite name="FooTest" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="HandleNoneZeroInput" status="run" time="0" classname="FooTest" />
   </testsuite>
   <testsuite name="AddTest" tests="1" failures="1" disabled="0" errors="0" time="0">
     <testcase name="NormalInput" status="run" time="0" classname="AddTest">
-      <failure message="test.cpp:25&#x0A;Value of: add(1, 4)&#x0A;  Actual: 5&#x0A;Expected: 2" type=""><![CDATA[test.cpp:25
+      <failure message="test.cpp:44&#x0A;Value of: add(1, 4)&#x0A;  Actual: 5&#x0A;Expected: 2" type=""><![CDATA[test.cpp:44
 Value of: add(1, 4)
   Actual: 5
 Expected: 2]]></failure>
@@ -13,15 +13,18 @@ Expected: 2]]></failure>
   </testsuite>
   <testsuite name="FailureTest" tests="1" failures="1" disabled="0" errors="0" time="0">
     <testcase name="NormalTest" status="run" time="0" classname="FailureTest">
-      <failure message="test.cpp:29&#x0A;Failed&#x0A;sorry dushishuang!" type=""><![CDATA[test.cpp:29
+      <failure message="test.cpp:48&#x0A;Failed&#x0A;sorry dushishuang!" type=""><![CDATA[test.cpp:48
 Failed
 sorry dushishuang!]]></failure>
     </testcase>
   </testsuite>
-  <testsuite name="FooExpectionTest" tests="1" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="HandleZeroInput" status="run" time="0.001" classname="FooExpectionTest" />
+  <testsuite name="FooExpectionTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="HandleZeroInput" status="run" time="0" classname="FooExpectionTest" />
   </testsuite>
   <testsuite name="FloatTest" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="FloatEqInput" status="run" time="0" classname="FloatTest" />
+  </testsuite>
+  <testsuite name="TypeAssertionTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Demo" status="run" time="0" classname="TypeAssertionTest" />
   </testsuite>
 </testsuites>

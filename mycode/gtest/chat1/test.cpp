@@ -16,7 +16,26 @@ int add(int a, int b) {
     return a + b;
 }
 
-TEST(FooTest, HandleNoneZeroInput) {
+class FooTest : public testing::Test {
+public:
+    static void SetUpTestCase(void) {
+        std::cout << "Set up Foo test suite!" << std::endl;
+    }
+
+    static void TearDownTestCase(void) {
+        std::cout << "Tear down Foo test suite!" << std::endl;
+    }
+
+    virtual void SetUp(void) {
+        std::cout << "set up foo test case " << std::endl;
+    }
+    
+    virtual void TearDown(void) {
+        std::cout << "tear down foo test case" << std::endl;
+    }
+};
+
+TEST_F(FooTest, HandleNoneZeroInput) {
     EXPECT_EQ(2, foo(4, 10));
     EXPECT_EQ(6, foo(30, 18));
 }
@@ -47,12 +66,24 @@ public:
 };
 
 TEST(TypeAssertionTest, Demo) {
-    FooType<bool> foo;
+    FooType<int> foo;
     foo.bar();
 }
 
+class FooEnvironment : public testing::Environment {
+public:
+    virtual void SetUp(void) {
+        std::cout << "Foo Environment setup!" << std::endl;
+    }
+    
+    virtual void TearDown(void) {
+        std::cout << "Foo Environment teardown!" << std::endl;
+    }
+};
+
 int main(int argc, char * argv[]) {
     //testing::GTEST_FLAG(output) = "xml:";
+    testing::AddGlobalTestEnvironment(new FooEnvironment);
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
