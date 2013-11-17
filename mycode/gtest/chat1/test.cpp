@@ -81,6 +81,26 @@ public:
     }
 };
 
+bool isPrime(int n) {
+    if (n <=1 ) return false;
+    if (n % 2 == 0) return false;
+    for (int i = 3; ; i +=2) {
+        if (i * i > n) return true;
+        if ( n % i == 0) return false;
+    }
+    return true;
+}
+
+class IsPrimeTest : public testing::TestWithParam<int> {
+};
+
+TEST_P(IsPrimeTest, ReturnTrue) {   
+    int n = GetParam(); 
+    EXPECT_TRUE(isPrime(n));
+}
+
+INSTANTIATE_TEST_CASE_P(TrueReturn, IsPrimeTest, testing::Values(3, 5, 13, 17));
+
 int main(int argc, char * argv[]) {
     //testing::GTEST_FLAG(output) = "xml:";
     testing::AddGlobalTestEnvironment(new FooEnvironment);
