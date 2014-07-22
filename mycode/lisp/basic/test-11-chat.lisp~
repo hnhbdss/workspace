@@ -1,0 +1,10 @@
+(defparameter *v* (make-hash-table))
+
+(setf (gethash 'foo *v*) 'quux)
+
+(gethash 'foo *v*)
+
+(multiple-value-bind (value present) (gethash 'foo *v*)
+  (if present
+      (format t "value is present")
+      (format t "value is not present")))
