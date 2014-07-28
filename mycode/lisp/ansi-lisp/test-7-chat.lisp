@@ -90,4 +90,6 @@
 	     (buf-reset buf)
 	     (setf pos 0))))
     (buf-flush buf out)))
+
 (file-subst "baro" "baric" "c:/cygwin/home/oam/work/workspace/mycode/lisp/ansi-lisp/test1" "c:/cygwin/home/oam/work/workspace/mycode/lisp/ansi-lisp/test2")	
+
