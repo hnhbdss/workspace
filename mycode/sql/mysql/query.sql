@@ -1,14 +1,14 @@
 select ugw.*, usn.*, gxy.* from 
 (select sno, imsi, imsdn, proceduretype, accesstime, releasetime from r_comp where netype in (4) and proceduretype in (10)) ugw
 
-left outer join 
+left join 
 
 (select sno, imsi, imsdn, proceduretype, accesstime, releasetime from r_comp where netype in (3) and proceduretype in (1, 2 , 3)) usn
 
 on ((ugw.imsi = usn.imsi) and not (ugw.imsdn is not null and usn.imsdn is not null and ugw.imsdn <> usn.imsdn) 
     and ((ugw.accesstime- usn.accesstime) < 5 and (ugw.accesstime > usn.accesstime)))
 
-left outer join 
+left join 
 
 (select sno, imsi, imsdn, proceduretype, accesstime, releasetime from r_comp where netype in (4) and proceduretype in (100, 101, 102)) gxy
 
