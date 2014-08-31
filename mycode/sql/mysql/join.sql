@@ -22,6 +22,8 @@ insert into r_comp values (4, 3, 3, 3, 3, 300, 350);
 
 insert into r_comp values (5, 3, 3, 3, 4, 300, 350);   -- not fullish any one of procedure type
 
+insert into r_comp values (6, 6, null, 3, 3, 400, 450);
+
 -- ugw
 insert into r_comp values (100, 1, 1, 4, 10, 101, 103); -- fulllish with 1 
 
@@ -34,6 +36,8 @@ insert into r_comp values (103, 1, 1, 4, 10, 110, 115);
 insert into r_comp values (104, 3, 3, 4, 10, 301, 304); -- fulllish with 3, 4 
 
 insert into r_comp values (105, 3, 3, 4, 10, 302, 304); -- fulllish with 3, 4 
+
+insert into r_comp values (106, 6, 6, 4, 10, 401, 403); -- fulllish with 6
 
 -- gxy 
 
@@ -49,6 +53,6 @@ insert into r_comp values (1004, 3, 3, 4, 102, 303, 303); -- fullist with ugw 10
 
 insert into r_comp values (1005, 3, 3, 4, 102, 310, 320); -- nothing with relation
 
-
+insert into r_comp values (1006, 6, null, 4, 102, 402, 402); -- fulllish with 106 
 
 
