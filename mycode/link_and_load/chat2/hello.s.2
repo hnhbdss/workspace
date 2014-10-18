@@ -1,0 +1,42 @@
+	.file	"hello.ii"
+	.text
+	.globl	main
+	.align	16, 0x90
+	.type	main,@function
+main:                                   # @main
+.Ltmp2:
+	.cfi_startproc
+# BB#0:
+	pushq	%rbp
+.Ltmp3:
+	.cfi_def_cfa_offset 16
+.Ltmp4:
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+.Ltmp5:
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	leaq	.L.str, %rdi
+	movl	$0, -4(%rbp)
+	movb	$0, %al
+	callq	_Z6printfPKcz
+	movl	$0, %ecx
+	movl	%eax, -8(%rbp)          # 4-byte Spill
+	movl	%ecx, %eax
+	addq	$16, %rsp
+	popq	%rbp
+	ret
+.Ltmp6:
+	.size	main, .Ltmp6-main
+.Ltmp7:
+	.cfi_endproc
+.Leh_func_end0:
+
+	.type	.L.str,@object          # @.str
+	.section	.rodata.str1.1,"aMS",@progbits,1
+.L.str:
+	.asciz	 "Hello world\n"
+	.size	.L.str, 13
+
+
+	.section	".note.GNU-stack","",@progbits
