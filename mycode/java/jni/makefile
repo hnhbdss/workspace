@@ -9,4 +9,4 @@ clean:
 	rm -rf *.o
 	rm -rf *.so
 	rm -rf *~
-
+	rm -rf *.h
