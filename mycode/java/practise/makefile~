@@ -1,0 +1,4 @@
+all:
+	javac -cp /home/lili/workspace/github-code/mycode/java/practise:/home/lili/workspace/dev-lib/java-dev-lib/ dss.demo.MainFrame
+test:
+	java -cp /home/lili/workspace/github-code/mycode/java/practise:/home/lili/workspace/dev-lib/java-dev-lib/ dss.demo.MainFrame
