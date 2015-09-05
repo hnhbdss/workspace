@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="webservice" default="run">
+  <property name="bin.dir" location="bin"/>
+  <property name="src.dir" location="src"/>
+
+  <target name="clean">
+    <delete dir="bin"/>
+  </target>
+  
+  <target name="build">
+    <mkdir dir="bin"/>
+    <mkdir dir="bin/server"/>
+    <mkdir dir="bin/client"/>
+    <javac destdir="${bin.dir}/server" srcdir="${src.dir}/server" includes="**/*.java"/>
+    <javac destdir="${bin.dir}/client" srcdir="${src.dir}/client" includes="**/*.java"/>
+  </target>
+
+  <target name="archive" depends="build">
+  </target>
+
+  <target name="deploy" depends="archive">
+    
+  </target>
+
+  <target name="run" depends="deploy">
+  </target>
+
+</project>
+  

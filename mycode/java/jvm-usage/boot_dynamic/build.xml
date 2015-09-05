@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="dss" default="run">
+
+  <property name="src.dir" location="src"/>
+  <property name="bin.dir" location="bin"/>
+
+  <target name="compile" >
+    <delete dir="${bin.dir}"/>
+    <mkdir dir="${bin.dir}"/>
+    <javac destdir="${bin.dir}" srcdir="${src.dir}" debug="true">
+      <classpath path="/home/lili/workspace/dev-lib/java-dev-lib/asm-5.0.4/lib/all/asm-all-5.0.4.jar"/>
+    </javac>
+  </target>
+
+  <target name="run" depends="compile">
+    <java classname="DynInvokeSample" classpath="/home/lili/workspace/dev-lib/java-dev-lib/asm-5.0.4/lib/all/asm-all-5.0.4.jar:/home/lili/workspace/github-code/mycode/java/jvm-usage/boot_dynamic/bin">
+      <!--classpath path="/home/lili/workspace/dev-lib/java-dev-lib/asm-5.0.4/lib/all/asm-all-5.0.4.jar"/>
+      <classpath path="${bin.dir}"/-->
+    </java>
+  </target>
+</project>

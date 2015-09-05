@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="dss" default="build" basedir=".">
+  
+  <property name="srcDir" location="."/>
+  <property name="binDir" location="bin"/>
+  <property name="mainClass" value="StaticDeadLockMain"/>
+  <property name="jar.file" value="all.jar"/>
+  
+  <target name="init">
+    <delete dir="${binDir}"/>
+    <mkdir dir="${binDir}"/>
+  </target>
+
+  <target name="Compile" depends="init">
+    <javac srcdir="${srcDir}" destdir="${binDir}" classpath="/home/lili/workspace/dev-lib/java-dev-lib/asm-5.0.4/lib/all/asm-all-5.0.4.jar"/>
+  </target>
+
+  <target name="MakeJar" depends="Compile">
+    <jar destfile="${jar.file}" basedir="${binDir}">
+      <manifest>
+	<attribute name="Main-Class" value="${mainClass}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="build" depends="MakeJar">
+    <echo message="Ant is building the project." />
+    <!--shell command="ls" /-->
+  </target>
+
+  <target name="run" depends="build">
+    <java classname="${mainClass}" classpath="${jar.file}">
+      <!--arg value="a"/>
+      <arg file="." /-->
+    </java>
+  </target>
+
+  <target name="clean">
+    <delete dir="${binDir}"/>
+    <delete file="${jar.file}"/>
+  </target>
+
+  <!--target name="archive" depends="run">
+    <ftp server="127.0.0.1" useid="lili" password="lili">
+      <fileset dir="new"/>
+    </ftp>
+  </target-->
+  
+</project>

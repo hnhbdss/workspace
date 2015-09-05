@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="TestLoadClass" default="build" basedir=".">
+  <property name="srcDir" location="src"/>
+  <property name="binDir" location="bin"/>
+  <target name="init">
+    <delete dir="${binDir}"/>
+    <mkdir dir="${binDir}"/>
+  </target>
+
+  <target name="Compile" depends="init">
+    <javac srcdir="${srcDir}" destdir="${binDir}"/>
+  </target>
+
+  <target name="MakeJar" depends="Compile">
+    <jar destfile="all.jar" basedir="${binDir}">
+      <manifest>
+	<attribute name="Main-Class" value="TestLoadClass"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="build" depends="MakeJar">
+    <echo message="Ant is building the project." />
+    <!--shell command="ls" /-->
+  </target>
+
+  <target name="run" depends="build">
+    <java classname="TestLoadClass" classpath="all.jar">
+      <!--arg value="a"/>
+      <arg file="." /-->
+    </java>
+  </target>
+
+  <target name="archive" depends="run">
+    <ftp server="127.0.0.1" useid="lili" password="lili">
+      <fileset dir="new"/>
+    </ftp>
+  </target>
+  
+</project>
