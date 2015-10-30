@@ -1,0 +1,14 @@
+package com.demo;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+public class Main {
+
+	private static final Log log = LogFactory.getLog(Main.class);
+	public static void main(String[] args) {
+		log.info("main enter");
+		SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
+		SqlSession session = builder.build(Main.class.getClassLoader().getResourceAsStream("sqlmap/root.xml"));
+	}
+}

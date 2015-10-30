@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="javax.xml.ws.RequestWrapper"/>
+<fullyQualifiedTypeName name="javax.xml.ws.ResponseWrapper"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+<fullyQualifiedTypeName name="javax.jws.WebParam"/>
+<fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding.Use"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Service"/>
+<fullyQualifiedTypeName name="javax.xml.ws.soap.SOAPBinding"/>
+<fullyQualifiedTypeName name="org.apache.cxf.jaxws.JaxWsClientFactoryBean"/>
+<fullyQualifiedTypeName name="org.apache.cxf.jaxws.JaxWsProxyFactoryBean"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.adapters.XmlAdapter"/>
+<fullyQualifiedTypeName name="com.dss.demo.server.ProjectImpl"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessType"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlType"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlAccessorType"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="com.dss.demo.StringProjectMap.StringProjectEntry"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter"/>
+<fullyQualifiedTypeName name="org.apache.cxf.frontend.ServerFactoryBean"/>
+<fullyQualifiedTypeName name="org.apache.cxf.endpoint.Server"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.apache.cxf.frontend.ClientProxyFactoryBean"/>
+<fullyQualifiedTypeName name="com.dss.demo.Project"/>
+<fullyQualifiedTypeName name="org.apache.cxf.endpoint.dynamic.DynamicClientFactory"/>
+<fullyQualifiedTypeName name="javax.xml.namespace.QName"/>
+<fullyQualifiedTypeName name="org.apache.cxf.jaxws.endpoint.dynamic.JaxWsDynamicClientFactory"/>
+<fullyQualifiedTypeName name="org.apache.cxf.jaxws.JaxWsServerFactoryBean"/>
+<fullyQualifiedTypeName name="com.dss.demo.ProjectManager"/>
+<fullyQualifiedTypeName name="com.dss.demo.server.ProjectManagerImpl"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+<fullyQualifiedTypeName name="com.ibatis.sqlmap.client.SqlMapClientBuilder"/>
+<fullyQualifiedTypeName name="com.ibatis.sqlmap.client.SqlMapClient"/>
+</qualifiedTypeNameHistroy>

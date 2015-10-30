@@ -1,0 +1,8 @@
+def list_tables()
+    @hbase.admin(@formatter).list.each do |t|
+    	puts t
+    end
+end
+
+list_tables
+exit

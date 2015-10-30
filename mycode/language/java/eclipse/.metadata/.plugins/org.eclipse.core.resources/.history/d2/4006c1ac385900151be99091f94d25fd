@@ -1,0 +1,30 @@
+package com.demo;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import com.ibatis.sqlmap.client.SqlMapClient;
+import com.ibatis.sqlmap.client.SqlMapClientBuilder;
+
+public class Main {
+
+	private static final Log log = LogFactory.getLog(Main.class);
+	public static void main(String[] args) throws SQLException {
+		log.info("main enter");
+		SqlMapClient client = SqlMapClientBuilder.buildSqlMapClient(
+				Main.class.getClassLoader().getResourceAsStream("sqlmap/root.xml"));
+		if (client  == null) {
+			System.out.println("load sqlmap error");
+		}
+		RanNe ne = new RanNe();
+		ne.setNeId(1);
+		ne.setNeName("lili");
+		List<RanNe> ranNes = (List<String>)client.queryForList("selectRanne", ne);
+		for (RanNe ranNe : ranNes)
+			System.out.println("name:" + ranNe.getNeName());
+		}
+	}
+}

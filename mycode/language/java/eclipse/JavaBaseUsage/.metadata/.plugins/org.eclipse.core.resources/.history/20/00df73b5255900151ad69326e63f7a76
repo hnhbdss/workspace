@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE sqlMapConfig PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<sqlMapConfig namespace="dss">
+	<properties resource="mysql.properties">  
+	    <!-- <property name="jdbc.driverClassName" value="com.mysql.jdbc.Driver"/>  
+	    <property name="jdbc.url" value="jdbc:mysql://localhost:3306/dss"/>  
+	    <property name="username" value="root"/>  
+	    <property name="password" value="lili"/>  -->
+	</properties>  
+	<transactionManager type="JDBC"> <!-- JDBC, JTA, EXTERNAL -->
+		<dataSource type="DBCP"> <!-- SIMPLE, DBCP, JNI -->
+			
+		</dataSource> 
+	</transactionManager>
+	<settings>  
+	    <setting name="cacheEnabled" value="true" />  
+	    <setting name="lazyLoadingEnabled" value="true" />  
+	    <setting name="multipleResultSetsEnabled" value="true" />  
+	    <setting name="useColumnLabel" value="true" />  
+	    <setting name="useGeneratedKeys" value="false" />  
+	    <setting name="enhancementEnabled" value="false" />  
+	    <setting name="defaultExecutorType" value="SIMPLE" />  
+	</settings>
+	<sqlMap resource="sqlmap/ranne.xml"/>
+</sqlMapConfig>

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="11" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="0" y="27">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="26"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="142" y="26"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="80" y="26"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="80" y="26"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="26"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="62" y="26"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="36" y="26"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="212" y="26"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1434783411996" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/lili/workspace/github-code/mycode/java/eclipse/JavaBaseUsage/MyBatisUsage/src/com/demo/Main.java" title="Main.java" tooltip="MyBatisUsage/src/com/demo/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MyBatisUsage/src/com/demo/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="224" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="root.xml" partName="root.xml" path="/home/lili/workspace/github-code/mycode/java/eclipse/JavaBaseUsage/MyBatisUsage/src/sqlmap/root.xml" title="root.xml" tooltip="MyBatisUsage/src/sqlmap/root.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MyBatisUsage/src/sqlmap/root.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="ranne.xml" partName="ranne.xml" path="/home/lili/workspace/github-code/mycode/java/eclipse/JavaBaseUsage/MyBatisUsage/src/sqlmap/ranne.xml" title="ranne.xml" tooltip="MyBatisUsage/src/sqlmap/ranne.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MyBatisUsage/src/sqlmap/ranne.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="SqlSessionFactoryBuilder.class" partName="SqlSessionFactoryBuilder.class" path="/tmp/SqlSessionFactoryBuilder.class4329081150640498008.class" title="SqlSessionFactoryBuilder.class" tooltip="org.apache.ibatis.session.SqlSessionFactoryBuilder" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=MyBatisUsage/\/home\/lili\/workspace\/dev-lib\/java-dev-lib\/mybatis-3.3.0\/mybatis-3.3.0.jar&lt;org.apache.ibatis.session(SqlSessionFactoryBuilder.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="1548" selectionTopPixel="408"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="SqlSessionFactory.class" partName="SqlSessionFactory.class" path="/tmp/SqlSessionFactory.class4399880992616107376.class" title="SqlSessionFactory.class" tooltip="org.apache.ibatis.session.SqlSessionFactory" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=MyBatisUsage/\/home\/lili\/workspace\/dev-lib\/java-dev-lib\/mybatis-3.3.0\/mybatis-3.3.0.jar&lt;org.apache.ibatis.session(SqlSessionFactory.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1041" selectionTopPixel="24"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapClientBuilder.java" partName="SqlMapClientBuilder.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/client/SqlMapClientBuilder.java" title="SqlMapClientBuilder.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapClientBuilder.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapClientBuilder.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2964" selectionTopPixel="924"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapConfigParser.java" partName="SqlMapConfigParser.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/builder/xml/SqlMapConfigParser.java" title="SqlMapConfigParser.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/builder/xml/SqlMapConfigParser.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/builder/xml/SqlMapConfigParser.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="34" selectionOffset="3101" selectionTopPixel="1496"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapConfiguration.java" partName="SqlMapConfiguration.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/config/SqlMapConfiguration.java" title="SqlMapConfiguration.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/config/SqlMapConfiguration.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/config/SqlMapConfiguration.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1975" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="XmlParserState.java" partName="XmlParserState.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/builder/xml/XmlParserState.java" title="XmlParserState.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/builder/xml/XmlParserState.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/builder/xml/XmlParserState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4199" selectionTopPixel="2558"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapExecutorDelegate.java" partName="SqlMapExecutorDelegate.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapExecutorDelegate.java" title="SqlMapExecutorDelegate.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapExecutorDelegate.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapExecutorDelegate.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="71" selectionOffset="15504" selectionTopPixel="10054"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProbeFactory.java" partName="ProbeFactory.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/common/beans/ProbeFactory.java" title="ProbeFactory.java" tooltip="mybatis2/src/main/java/com/ibatis/common/beans/ProbeFactory.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/common/beans/ProbeFactory.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="943" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GenericProbe.java" partName="GenericProbe.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/common/beans/GenericProbe.java" title="GenericProbe.java" tooltip="mybatis2/src/main/java/com/ibatis/common/beans/GenericProbe.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/common/beans/GenericProbe.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2863" selectionTopPixel="4378"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DefaultSqlExecutor.java" partName="DefaultSqlExecutor.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/execution/DefaultSqlExecutor.java" title="DefaultSqlExecutor.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/execution/DefaultSqlExecutor.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/execution/DefaultSqlExecutor.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="56" selectionOffset="6627" selectionTopPixel="2398"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResultObjectFactoryUtil.java" partName="ResultObjectFactoryUtil.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/mapping/result/ResultObjectFactoryUtil.java" title="ResultObjectFactoryUtil.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/mapping/result/ResultObjectFactoryUtil.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/mapping/result/ResultObjectFactoryUtil.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="5391" selectionTopPixel="2288"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StatementScope.java" partName="StatementScope.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/scope/StatementScope.java" title="StatementScope.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/scope/StatementScope.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/scope/StatementScope.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="1546" selectionTopPixel="3476"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SessionScope.java" partName="SessionScope.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/scope/SessionScope.java" title="SessionScope.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/scope/SessionScope.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/scope/SessionScope.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="1396" selectionTopPixel="110"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResultMapTest.java" partName="ResultMapTest.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/test/java/com/ibatis/sqlmap/ResultMapTest.java" title="ResultMapTest.java" tooltip="mybatis2/src/test/java/com/ibatis/sqlmap/ResultMapTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/test/java/com/ibatis/sqlmap/ResultMapTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="999" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseSqlMapTest.java" partName="BaseSqlMapTest.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/test/java/com/ibatis/sqlmap/BaseSqlMapTest.java" title="BaseSqlMapTest.java" tooltip="mybatis2/src/test/java/com/ibatis/sqlmap/BaseSqlMapTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/test/java/com/ibatis/sqlmap/BaseSqlMapTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1433" selectionTopPixel="242"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapClientImpl.java" partName="SqlMapClientImpl.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapClientImpl.java" title="SqlMapClientImpl.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapClientImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapClientImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2842" selectionTopPixel="968"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapSessionImpl.java" partName="SqlMapSessionImpl.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapSessionImpl.java" title="SqlMapSessionImpl.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapSessionImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapSessionImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1623" selectionTopPixel="198"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="mysql.properties" partName="mysql.properties" path="/home/lili/workspace/github-code/mycode/java/eclipse/JavaBaseUsage/MyBatisUsage/src/mysql.properties" title="mysql.properties" tooltip="MyBatisUsage/src/mysql.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MyBatisUsage/src/mysql.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="64" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapSession.java" partName="SqlMapSession.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/client/SqlMapSession.java" title="SqlMapSession.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapSession.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapSession.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapExecutor.java" partName="SqlMapExecutor.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/sqlmap/client/SqlMapExecutor.java" title="SqlMapExecutor.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapExecutor.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapExecutor.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NodeletParser.java" partName="NodeletParser.java" path="/home/lili/workspace/open-source/java-dev/ibatis-2/src/main/java/com/ibatis/common/xml/NodeletParser.java" title="NodeletParser.java" tooltip="mybatis2/src/main/java/com/ibatis/common/xml/NodeletParser.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis2/src/main/java/com/ibatis/common/xml/NodeletParser.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="1378" selectionTopPixel="154"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="SqlMapClientBuilder.class" partName="SqlMapClientBuilder.class" path="/tmp/SqlMapClientBuilder.class2581491133528968200.class" title="SqlMapClientBuilder.class" tooltip="com.ibatis.sqlmap.client.SqlMapClientBuilder" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=MyBatisUsage/\/home\/lili\/workspace\/dev-lib\/java-dev-lib\/ibatis-2.3.4.726.jar&lt;com.ibatis.sqlmap.client(SqlMapClientBuilder.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="4017" selectionTopPixel="1531"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" currentWorkingSetName="Aggregate for window 1434783411996" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=WSPractise/src&lt;com.dss.demo.dynamic{WSClient.java[WSClient" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=WSPractise/src&lt;com.dss.demo.dynamic{WSClient.java[WSClient" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+</view>
+<view id="org.eclipse.jdt.callhierarchy.view" partName="Call Hierarchy">
+<viewState search_scope_type="1"/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="135" org.eclipse.ui.ide.markerType="163" org.eclipse.ui.ide.pathField="180" org.eclipse.ui.ide.resourceField="135" org.eclipse.ui.ide.severityAndDescriptionField="978"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState configured="true" group_libraries="1" layout="1" linkWithEditor="0" rootMode="2" sortWorkingSets="false" workingSetName="">
+<localWorkingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.OthersWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1442034688972_3" label="Other Projects" name="Other Projects">
+<item elementID="=StringEncodeUsage" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=WSPractise" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+</localWorkingSetManager>
+<activeWorkingSet workingSetName="Other Projects"/>
+<activeWorkingSet workingSetName="DBTools"/>
+<allWorkingSets workingSetName="Other Projects"/>
+<allWorkingSets workingSetName="DBTools"/>
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="45" org.eclipse.ui.ide.descriptionField="450" org.eclipse.ui.ide.locationField="135" org.eclipse.ui.ide.markerType="547" org.eclipse.ui.ide.pathField="180" org.eclipse.ui.ide.priorityField="45" org.eclipse.ui.ide.resourceField="135"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.team.cvs.ui.cvsPerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19172342" ratioLeft="366" ratioRight="1543" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.659164" ratioLeft="410" ratioRight="212" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="311" ratioRight="311" relationship="4" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.callhierarchy.view"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Type Hierarchy"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.29229963" ratioLeft="558" ratioRight="1351" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.6263982" ratioLeft="560" ratioRight="334" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.jdt.callhierarchy.view" label="Call Hierarchy"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7496513" ratioLeft="1075" ratioRight="359" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7919463" ratioLeft="708" ratioRight="186" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.22011386" ratioLeft="116" ratioRight="411" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapExecutorDelegate.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapClientImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapSessionImpl.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/MyBatisUsage/src/sqlmap/root.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/MyBatisUsage/src/mysql.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/MyBatisUsage/src/sqlmap/ranne.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapSession.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapExecutor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapClientBuilder.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/builder/xml/SqlMapConfigParser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/builder/xml/XmlParserState.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MyBatisUsage/src/com/demo/Main.java"/>
+</editors>
+<item historyLabel="SqlMapSessionImpl.java" index="2">
+<position info="not_deleted" x="3269" y="45"/>
+</item>
+<item historyLabel="SqlMapClientImpl.java" index="1">
+<position info="not_deleted" x="2686" y="31"/>
+</item>
+<item historyLabel="SqlMapSessionImpl.java" index="2">
+<position info="not_deleted" x="3269" y="45"/>
+</item>
+<item historyLabel="SqlMapExecutorDelegate.java" index="0">
+<position info="not_deleted" x="14568" y="51"/>
+</item>
+<item historyLabel="SqlMapSessionImpl.java" index="2">
+<position info="not_deleted" x="3269" y="45"/>
+</item>
+<item historyLabel="SqlMapExecutorDelegate.java" index="0">
+<position info="not_deleted" x="14568" y="51"/>
+</item>
+<item historyLabel="SqlMapSessionImpl.java" index="2">
+<position info="not_deleted" x="3269" y="45"/>
+</item>
+<item historyLabel="SqlMapSessionImpl.java" index="2">
+<position info="not_deleted" x="1437" y="17"/>
+</item>
+<item historyLabel="SqlMapSessionImpl.java" index="2">
+<position info="not_deleted" x="1540" y="12"/>
+</item>
+<item historyLabel="SqlMapClientImpl.java" index="1">
+<position info="not_deleted" x="2686" y="31"/>
+</item>
+<item historyLabel="SqlMapClientImpl.java" index="1">
+<position info="not_deleted" x="1680" y="0"/>
+</item>
+<item historyLabel="SqlMapSessionImpl.java" index="2">
+<position info="not_deleted" x="3269" y="45"/>
+</item>
+<item historyLabel="SqlMapExecutorDelegate.java" index="0">
+<position info="not_deleted" x="14568" y="51"/>
+</item>
+<item historyLabel="SqlMapExecutorDelegate.java" index="0">
+<position info="not_deleted" x="15504" y="71"/>
+</item>
+<item historyLabel="SqlMapExecutorDelegate.java" index="0">
+<position info="not_deleted" x="15208" y="0"/>
+</item>
+<item historyLabel="SqlMapExecutorDelegate.java" index="0">
+<position info="not_deleted" x="15252" y="0"/>
+</item>
+<item historyLabel="SqlMapExecutorDelegate.java" index="0">
+<position info="not_deleted" x="15172" y="0"/>
+</item>
+<item historyLabel="SqlMapExecutorDelegate.java" index="0">
+<position info="not_deleted" x="15504" y="71"/>
+</item>
+<item historyLabel="SqlMapClientImpl.java" index="1">
+<position info="not_deleted" x="2686" y="31"/>
+</item>
+<item historyLabel="SqlMapClientImpl.java" index="1">
+<position info="not_deleted" x="2677" y="0"/>
+</item>
+<item historyLabel="SqlMapClientImpl.java" index="1">
+<position info="not_deleted" x="2842" y="0"/>
+</item>
+<item historyLabel="root.xml" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="mysql.properties" index="4">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item historyLabel="ranne.xml" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="root.xml" index="3">
+<position info="not_deleted" x="355" y="31"/>
+</item>
+<item historyLabel="mysql.properties" index="4">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item historyLabel="root.xml" index="3">
+<position info="not_deleted" x="290" y="21"/>
+</item>
+<item historyLabel="mysql.properties" index="4">
+<position info="not_deleted" x="28" y="0"/>
+</item>
+<item historyLabel="root.xml" index="3">
+<position/>
+</item>
+<item historyLabel="mysql.properties" index="4">
+<position info="not_deleted" x="32" y="32"/>
+</item>
+<item historyLabel="root.xml" index="3">
+<position info="not_deleted" x="355" y="31"/>
+</item>
+<item historyLabel="mysql.properties" index="4">
+<position info="not_deleted" x="64" y="0"/>
+</item>
+<item historyLabel="root.xml" index="3">
+<position info="not_deleted" x="1040" y="0"/>
+</item>
+<item historyLabel="SqlMapSession.java" index="6">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="SqlMapExecutor.java" index="7">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="SqlMapClientBuilder.java" index="8">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="SqlMapClientBuilder.java" index="8">
+<position info="not_deleted" x="2961" y="0"/>
+</item>
+<item historyLabel="SqlMapConfigParser.java" index="9">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="SqlMapConfigParser.java" index="9">
+<position info="not_deleted" x="6220" y="0"/>
+</item>
+<item historyLabel="SqlMapConfigParser.java" index="9">
+<position info="not_deleted" x="1149" y="0"/>
+</item>
+<item historyLabel="XmlParserState.java" index="10">
+<position info="not_deleted" x="5" y="0"/>
+</item>
+<item historyLabel="XmlParserState.java" index="10">
+<position info="not_deleted" x="894" y="19"/>
+</item>
+<item historyLabel="XmlParserState.java" index="10">
+<position info="not_deleted" x="3514" y="19"/>
+</item>
+<item historyLabel="Main.java" index="11">
+<position info="not_deleted" x="396" y="0"/>
+</item>
+<item historyLabel="Main.java" index="11">
+<position info="not_deleted" x="489" y="0"/>
+</item>
+<item historyLabel="Main.java" index="11">
+<position info="not_deleted" x="514" y="0"/>
+</item>
+<item historyLabel="Main.java" index="11">
+<position info="not_deleted" x="356" y="0"/>
+</item>
+<item historyLabel="root.xml" index="3">
+<position info="not_deleted" x="555" y="0"/>
+</item>
+<item historyLabel="Main.java" index="11">
+<position info="not_deleted" x="224" y="0"/>
+</item>
+<item active="true" historyLabel="root.xml" index="3">
+<position info="not_deleted" x="555" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottom"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="SqlMapClientBuilder.class" tooltip="com.ibatis.sqlmap.client.SqlMapClientBuilder">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=MyBatisUsage/\/home\/lili\/workspace\/dev-lib\/java-dev-lib\/ibatis-2.3.4.726.jar&lt;com.ibatis.sqlmap.client(SqlMapClientBuilder.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NodeletParser.java" tooltip="mybatis2/src/main/java/com/ibatis/common/xml/NodeletParser.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/common/xml/NodeletParser.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapExecutor.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapExecutor.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapExecutor.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapSession.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapSession.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/sqlmap/client/SqlMapSession.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="mysql.properties" tooltip="MyBatisUsage/src/mysql.properties">
+<persistable path="/MyBatisUsage/src/mysql.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapSessionImpl.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapSessionImpl.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapSessionImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SqlMapClientImpl.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapClientImpl.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/impl/SqlMapClientImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseSqlMapTest.java" tooltip="mybatis2/src/test/java/com/ibatis/sqlmap/BaseSqlMapTest.java">
+<persistable path="/mybatis2/src/test/java/com/ibatis/sqlmap/BaseSqlMapTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResultMapTest.java" tooltip="mybatis2/src/test/java/com/ibatis/sqlmap/ResultMapTest.java">
+<persistable path="/mybatis2/src/test/java/com/ibatis/sqlmap/ResultMapTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SessionScope.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/scope/SessionScope.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/scope/SessionScope.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StatementScope.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/scope/StatementScope.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/scope/StatementScope.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResultObjectFactoryUtil.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/mapping/result/ResultObjectFactoryUtil.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/mapping/result/ResultObjectFactoryUtil.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DefaultSqlExecutor.java" tooltip="mybatis2/src/main/java/com/ibatis/sqlmap/engine/execution/DefaultSqlExecutor.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/sqlmap/engine/execution/DefaultSqlExecutor.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GenericProbe.java" tooltip="mybatis2/src/main/java/com/ibatis/common/beans/GenericProbe.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/common/beans/GenericProbe.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProbeFactory.java" tooltip="mybatis2/src/main/java/com/ibatis/common/beans/ProbeFactory.java">
+<persistable path="/mybatis2/src/main/java/com/ibatis/common/beans/ProbeFactory.java"/>
+</file>
+</mruList>
+</workbench>

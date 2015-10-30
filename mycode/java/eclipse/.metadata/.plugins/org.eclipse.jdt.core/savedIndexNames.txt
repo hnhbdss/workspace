@@ -1,1 +1,0 @@
-INDEX VERSION 1.126+/home/lili/workspace/github-code/mycode/java/eclipse/.metadata/.plugins/org.eclipse.jdt.core

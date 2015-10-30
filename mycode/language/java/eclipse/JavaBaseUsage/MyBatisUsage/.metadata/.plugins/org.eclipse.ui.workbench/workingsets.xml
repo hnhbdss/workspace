@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1442045180026_1" label="DB_Src" name="DB_Src">
+<item elementID="=mybatis2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1442045281968_3" label="mycode" name="mycode"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1442045080361_0" label="Window Working Set" name="Aggregate for window 1442045080360"/>
+<mruList name="mycode"/>
+<mruList name="DB_Src"/>
+</workingSetManager>

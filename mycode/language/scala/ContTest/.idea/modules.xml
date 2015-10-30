@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../java/idea/mybatis/BaseUsage/BaseUsage.iml" filepath="$PROJECT_DIR$/../../java/idea/mybatis/BaseUsage/BaseUsage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContTest.iml" filepath="$PROJECT_DIR$/ContTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JavaAndScala/JavaAndScala.iml" filepath="$PROJECT_DIR$/../JavaAndScala/JavaAndScala.iml" />
+    </modules>
+  </component>
+</project>

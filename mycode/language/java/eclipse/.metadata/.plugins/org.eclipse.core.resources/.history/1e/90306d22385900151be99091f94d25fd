@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap>
+	<typeAlias alias="ranne" type="com.demo.RanNe"/>
+	<parameterMap class="ranne" id="ranParameterMap">
+		<parameter property="neId" column="id"/>
+		<parameter property="neName" column="name"/>
+	</parameterMap>
+	<resultMap class="ranne" id="ranneResultMap">
+		<result property="neId" resultMap="id"/>
+		<result property="neName" resultMap="name"/>
+	</resultMap>
+	<select id="selectRanne" resultMap="ranneResultMap" parameterMap="ranParameterMap">
+		select name, id from ranne where id = #{id}
+	</select>
+	
+</sqlMap>

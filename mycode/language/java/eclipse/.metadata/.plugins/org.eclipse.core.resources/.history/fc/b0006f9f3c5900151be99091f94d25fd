@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap>
+	<typeAlias alias="ranne" type="com.demo.RanNe"/>
+	
+	<parameterMap class="ranne" id="ranParameterMap">
+		<parameter property="neId" resultMap="id"/>
+		<parameter property="neName" resultMap="name"/>
+	</parameterMap>
+	
+	<resultMap class="ranne" id="ranneResultMap">
+		<result property="neId" column="id" jdbcType="INTEGER"/>
+		<result property="neName" column="name" jdbcType="VARCHAR"/>
+	</resultMap>
+	
+	<select id="selectRanne" resultMap="ranneResultMap" >
+		select name, id from ranne
+	</select>
+	
+	<insert id="insertRanNe" parameterMap="ranParameterMap">
+		insert into ranne(name, id) values(?, ?)
+	</insert>
+</sqlMap>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/home/lili/workspace/dev-lib/java-dev-lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/lili/workspace/dev-lib/java-dev-lib/mybatis-3.3.0/lib/asm-4.2.jar"/>
+	<classpathentry kind="lib" path="/home/lili/workspace/dev-lib/java-dev-lib/mybatis-3.3.0/lib/cglib-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/lili/workspace/open-source/java-dev/ibatis-2/target/classes/ibatis.jar" sourcepath="/home/lili/workspace/open-source/java-dev/ibatis-2"/>
+	<classpathentry kind="lib" path="/home/lili/workspace/dev-lib/java-dev-lib/commons-dbcp-1.4/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/lili/workspace/dev-lib/java-dev-lib/commons-pool-1.6/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="/usr/share/java/mysql-connector-java.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

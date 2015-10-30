@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void dao(SqlMapClient client) throws SQLException &apos; from &apos;com.demo.Main.main()&apos; to &apos;com.demo.Main&apos;&#x0A;- Original project: &apos;MyBatisUsage&apos;&#x0A;- Method name: &apos;dao&apos;&#x0A;- Destination type: &apos;com.demo.Main&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;dao&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.demo{Main.java" name="dao" replace="false" selection="642 414" stamp="1442072192882" version="1.0" visibility="2"/>
+</session>

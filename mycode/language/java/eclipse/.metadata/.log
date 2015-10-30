@@ -1,0 +1,97 @@
+!SESSION 2015-06-05 22:05:24.602 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-06-05 22:05:29.286
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2015-09-12 17:20:36.877 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -data /home/lili/workspace/github-code/mycode/java/eclipse -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-09-12 17:21:29.930
+!MESSAGE Project facet axis2.core has not been defined. It is used in plugin org.eclipse.jst.ws.cxf.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-09-12 17:21:29.945
+!MESSAGE Project facet jpt.jpa has not been defined. It is used in plugin org.eclipse.libra.facet.
+
+!ENTRY org.eclipse.core.resources 4 2 2015-09-12 17:22:31.281
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ClassCastException: org.eclipse.core.internal.resources.Project cannot be cast to org.eclipse.core.resources.IFolder
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:258)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createOutputFolder(NameEnvironment.java:251)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:117)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:44)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:603)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:167)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 75 2015-09-12 17:22:31.297
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2015-09-12 17:22:31.297
+!MESSAGE Errors running builder 'Java Builder' on project 'mybatis2'.
+!STACK 0
+java.lang.ClassCastException: org.eclipse.core.internal.resources.Project cannot be cast to org.eclipse.core.resources.IFolder
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:258)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createParentFolder(NameEnvironment.java:257)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.createOutputFolder(NameEnvironment.java:251)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:117)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:44)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:603)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:167)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-09-12 17:31:17.071 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Command-line arguments:  -data /home/lili/workspace/github-code/mycode/java/eclipse -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-09-12 17:39:06.478
+!MESSAGE Project facet axis2.core has not been defined. It is used in plugin org.eclipse.jst.ws.cxf.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-09-12 17:39:06.485
+!MESSAGE Project facet jpt.jpa has not been defined. It is used in plugin org.eclipse.libra.facet.

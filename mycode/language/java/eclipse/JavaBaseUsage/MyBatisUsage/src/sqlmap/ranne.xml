@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="ranne">
+	<typeAlias alias="ranne" type="com.demo.RanNe"/>
+	
+	<parameterMap class="ranne" id="ranParameterMap">
+		<parameter property="neId" resultMap="id"/>
+		<parameter property="neName" resultMap="name"/>
+	</parameterMap>
+	
+	<resultMap class="ranne" id="ranneResultMap">
+		<result property="neId" column="id" jdbcType="INTEGER"/>
+		<result property="neName" column="name" jdbcType="VARCHAR"/>
+	</resultMap>
+	
+		<sql id="myid2">
+		id
+	</sql>
+	
+	<select id="selectRanne" resultMap="ranneResultMap" >
+		select 
+		<include refid="common.allCols"/>,
+		<include refid="myid2"/>
+		 from ranne 
+	</select>
+	
+	<insert id="insertRanNe" parameterMap="ranParameterMap">
+		insert into ranne(id, name) values(?, ?)
+	</insert>
+	
+	<update id="updateRanne"  parameterClass="ranne">
+		update ranne set name = $neName$ where id = #neId#
+	</update>
+</sqlMap>
