@@ -1,0 +1,18 @@
+package com.demo.match;
+
+public class MatchServer {
+			
+	public MatchServer() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		MatchServer server = new MatchServer();
+		
+	}
+
+	public void start() {
+		
+	}
+}

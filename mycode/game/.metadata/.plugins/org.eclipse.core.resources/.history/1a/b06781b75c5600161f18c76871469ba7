@@ -1,0 +1,25 @@
+package com.demo.match;
+
+import java.awt.EventQueue;
+
+import javax.swing.*;
+
+public class MyFrame extends JFrame{
+	
+	private JPanel panel = new JPanel();
+	private JButton button = new JButton();
+	public MyFrame() {
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		MyFrame 
+	}
+
+	
+	public void paintComponent(Graphics g) {
+		
+	}
+}

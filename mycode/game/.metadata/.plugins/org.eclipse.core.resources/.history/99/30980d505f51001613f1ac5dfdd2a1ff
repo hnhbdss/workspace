@@ -1,0 +1,15 @@
+package com.demo.match.common;
+
+import com.sun.xml.internal.ws.Closeable;
+
+public class CloseUtils {
+
+	public  static void closeQuietly(Closeable res) {
+		try {
+			res.close();
+		}
+		catch(Exception e) {
+			System.err.println("close object failed:" + res);
+		}
+	}
+}

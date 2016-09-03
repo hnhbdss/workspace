@@ -1,0 +1,43 @@
+package com.demo.match;
+
+import com.demo.match.comm.Server;
+import com.demo.match.gui.MainFrame;
+
+public class GUIServer {
+
+	private static final int DEFAULT_PORT = 10000;
+
+	private Server commSvr = null;
+	
+	public static void main(String[] args) {
+		
+		GUIServer server = new GUIServer();
+		server.showWindow();
+		if (args.length != 1) {
+			System.err.printf("Usage ：%s port|filePath\n", args[0]);
+		}
+		
+		if (args[1].matches("^[0-9]+$")) {
+			
+		}
+	}
+
+	public void showWindow() {
+		Thread t = new Thread ()  {
+			public void run() {
+				MainFrame frame = new MainFrame();
+				frame.show();
+			}
+		};
+		t.start();
+	}
+	
+	public void commWithClient(int port) {
+		commSvr = new Server();
+		commSvr.start(port);
+	}
+	
+	public void commWithFile(String filePath) {
+		
+	}
+}

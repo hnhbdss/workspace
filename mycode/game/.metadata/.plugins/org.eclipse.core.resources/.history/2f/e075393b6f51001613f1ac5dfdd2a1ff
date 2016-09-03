@@ -1,0 +1,6 @@
+package com.demo.match.comm.msg;
+
+public interface IMessage {
+
+	public void process();
+}

@@ -1,0 +1,29 @@
+package com.demo.match.msg.impl;
+
+import com.demo.match.common.ChessColor;
+import com.demo.match.msg.IMessage;
+
+public class InitMessage implements IMessage{
+    //init:1,2,red,1;1,3,blue,2;
+	private String content;
+	public InitMessage(String content) {
+		this.content = content; 
+	}
+	
+	@Override
+	public void process() {
+		String[] grids = content.split(content.substring(IMessage.MESSAGE_INIT.length()), ';');
+		for (String grid : grids) {
+			String[] parts = grid.split(",");
+			int gridx = Integer.valueOf(parts[0]);
+			int gridy = Integer.valueOf(parts[1]);
+			ChessColor color= ChessColor.valueOf(parts[2]);
+			int value = Integer.valueOf(parts[3]);
+			
+			
+		}
+		
+	}
+	
+	
+}

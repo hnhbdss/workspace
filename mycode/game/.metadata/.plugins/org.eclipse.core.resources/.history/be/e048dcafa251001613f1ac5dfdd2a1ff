@@ -1,0 +1,42 @@
+package com.demo.match.board;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+import com.demo.match.common.VisiableException;
+
+public class MatchServerSocket {
+	
+	private int port;
+	public MatchServerSocket(int port) {
+		this.port = port;
+	}
+	
+	public void start(String clientId1, String clientId2) {
+		
+		try {
+			ServerSocket server = new ServerSocket(port);
+			Socket client1 = server.accept();
+			Socket client2 = server.accept();
+			
+			Thread client1Thread = new Thread() {
+				public void run() {
+					MatchClientSocketPeer client1Peer = new MatchClientSocketPeer(port);
+				}
+			};
+			client1Thread.start();
+			
+			Thread client2Thread = new Thread() {
+				public void run () {
+					
+				}
+			}
+			
+		}
+		catch(Exception e) {
+			System.err.println("catch Exception when start MatchServerSocket" + e.getMessage());
+			throw new VisiableException(e);
+		}
+	}
+	
+}

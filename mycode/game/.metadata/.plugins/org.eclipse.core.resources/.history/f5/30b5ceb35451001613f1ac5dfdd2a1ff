@@ -1,0 +1,12 @@
+package com.demo.match;
+
+import java.net.ServerSocket;
+
+public class Server {
+
+	public void open(int port) {
+		ServerSocket server = new ServerSocket(port);
+		
+	}
+
+}

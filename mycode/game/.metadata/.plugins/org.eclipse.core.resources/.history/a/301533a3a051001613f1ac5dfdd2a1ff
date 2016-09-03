@@ -1,0 +1,23 @@
+package com.demo.match;
+
+public class MatchServer {
+			
+	public MatchServer(int port, String clientId1, String clientId2) {
+		
+	}
+	
+	public static void main(String[] args) {
+
+		if (args.length != 3) {
+			System.err.println("Usage: port clientID1 clientID2");
+		}
+		else {
+			MatchServer server = new MatchServer(Integer.valueOf(args[0]).intValue(), args[1], args[2]);
+			server.start()
+		}
+	}
+
+	public void start() {
+		
+	}
+}

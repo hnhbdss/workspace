@@ -1,0 +1,18 @@
+package com.demo.match;
+
+public class MatchServerSocket {
+	
+	private int port;
+	public MatchServerSocket(int port) {
+		this.port = port;
+	}
+	
+	public void start(String clientId1, String clientId2) {
+		
+		try {
+			ServerSocket server = new ServerSocket(port);
+			
+		}
+	}
+	
+}

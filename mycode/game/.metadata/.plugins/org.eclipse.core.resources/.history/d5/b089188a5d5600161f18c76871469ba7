@@ -1,0 +1,40 @@
+package com.demo.match;
+
+import java.awt.Color;
+import java.awt.EventQueue;
+import java.awt.Graphics;
+import java.awt.GridLayout;
+
+import javax.swing.*;
+
+public class MyFrame extends JFrame{
+	
+	public static class MyPanel extends JPanel {
+		private static int i = 0;
+		public void paintComponent(Graphics g) {
+			g.drawString("hello" + String.valueOf(i), 30, 30);
+			i++;
+		}
+	}
+	private MyPanel panel = new MyPanel();
+	private JButton button = new JButton();
+	public MyFrame() {
+		this.getContentPane().setLayout(new GridLayout(1,2));
+		this.getContentPane().add(panel);
+		this.getContentPane().add(button);
+		
+		panel.setBackground(Color.BLUE);
+		button.setText("hello");
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		MyFrame frame = new MyFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(300,300);
+		frame.setVisible(true);
+	}
+
+
+}

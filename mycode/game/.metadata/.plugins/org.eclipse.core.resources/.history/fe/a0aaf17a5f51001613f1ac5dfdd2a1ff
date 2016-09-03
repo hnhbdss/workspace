@@ -1,0 +1,20 @@
+package com.demo.match.comm;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+
+import com.demo.match.comm.msg.IMessage;
+import com.demo.match.comm.msg.MessageFactory;
+
+public class MessageProcessor {
+	
+	private MessageFactory msgFactory = new MessageFactory();
+	
+	public void process(BufferedReader reader) throws IOException {
+		String message = null
+		while ((message = reader.readLine()) != null && !message.isEmpty()) {
+			IMessage msg = msgFactory.buildMessage(message);
+			msg.process();
+		}
+	}
+}

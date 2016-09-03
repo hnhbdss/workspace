@@ -1,0 +1,22 @@
+package com.demo.match.comm.msg;
+
+import com.demo.match.common.VisiableException;
+import com.demo.match.msg.IMessage;
+public class MessageFactory {
+	
+	public static final String MESSAGE_SYNC = "message:";
+	public static final String MESSAGE_INIT = "init:";
+	
+	public IMessage buildMessage(String content) {
+		if (content.startsWith(MESSAGE_SYNC)) {
+			switch(content.substring(MESSAGE_SYNC.length(), MESSAGE_SYNC.length())) {
+			case MESSAGE_INIT:
+				return new InitMessage(content.substring(MESSAGE_SYNC.length()));
+			default:
+				System.err.println("get invalid message:" + content);
+				throw new VisiableException("invalid message:" + content);
+			}
+		}
+		throw new VisiableException("invalid message:" + content);
+	}
+}

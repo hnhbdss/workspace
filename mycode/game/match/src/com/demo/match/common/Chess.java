@@ -1,0 +1,24 @@
+package com.demo.match.common;
+
+
+public class Chess {
+
+	private int value;
+	private ChessColor color;
+	
+	public int getValue() {
+		return value;
+	}
+	public void setValue(int value) {
+		this.value = value;
+	}
+	public ChessColor getColor() {
+		return color;
+	}
+	public void setColor(ChessColor color) {
+		this.color = color;
+	}
+	
+	
+
+}

@@ -1,0 +1,5 @@
+package com.demo.match.comm.msg;
+
+public class InitMessage implements IMessage{
+
+}

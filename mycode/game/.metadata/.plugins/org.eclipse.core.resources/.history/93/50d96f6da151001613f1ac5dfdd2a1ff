@@ -1,0 +1,9 @@
+package com.demo.match;
+
+public class MatchServerSocket {
+	
+	private int port;
+	public MatchServerSocket(int port) {
+		this.port = port;
+	}
+}

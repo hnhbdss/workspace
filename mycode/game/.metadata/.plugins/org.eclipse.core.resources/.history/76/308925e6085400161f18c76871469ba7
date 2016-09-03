@@ -1,0 +1,92 @@
+package com.demo.match.gui;
+
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
+import java.awt.Toolkit;
+import java.util.Timer;
+
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+
+public class MainFrame {
+
+	private JFrame frame = new JFrame();
+	private JButton leftPanel = new JButton("lili");
+	private JButton rightPanel = new JButton("lili2");
+	private JTextArea redText = new JTextArea();
+	private JTextArea blueText = new JTextArea();
+	private JTextArea historyText = new JTextArea();
+
+	public MainFrame() {
+		
+		Container container = frame.getContentPane();
+		GridBagLayout layout = new GridBagLayout();
+		container.setLayout(layout);
+		redText.setFont(new Font("Courier", Font.BOLD, 20));
+		redText.setForeground(Color.RED);
+		redText.setBackground(Color.GRAY);
+		redText.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+		blueText.setFont(new Font("Courier", Font.BOLD, 20));
+		blueText.setForeground(Color.BLUE);
+		blueText.setBackground(Color.GRAY);
+		blueText.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+		historyText.setFont(new Font("Courier", Font.BOLD, 20));
+		historyText.setForeground(Color.GREEN);
+		historyText.setBackground(Color.DARK_GRAY);
+		historyText.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+
+		redText.setText("Red(ClientID):");
+		blueText.setText("Blue(ClientID):");
+		historyText.setText("something");
+		
+		leftPanel.setBackground(Color.RED);
+		rightPanel.setBackground(Color.BLUE);
+		container.add(leftPanel);
+		container.add(redText);
+		container.add(blueText);
+		container.add(historyText);
+		
+		GridBagConstraints gbc = new GridBagConstraints();
+		gbc.fill = GridBagConstraints.BOTH;
+		gbc.gridwidth = 1;
+		gbc.gridheight = 5;
+		gbc.weightx = 0;
+		gbc.weighty = 0;
+		layout.setConstraints(leftPanel, gbc);
+		gbc.gridwidth = 0;
+		gbc.gridheight = 1;
+		layout.setConstraints(redText, gbc);
+		layout.setConstraints(redText, gbc);
+		gbc.gridwidth = 0;
+		layout.setConstraints(blueText, gbc);
+		gbc.gridwidth = 0;
+		gbc.gridheight = 0;
+		layout.setConstraints(historyText, gbc);
+
+		/*
+		rightPanel.setLayout(new GridLayout(3, 1));
+		rightPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+		rightPanel.add(redText);
+		rightPanel.add(blueText);
+		rightPanel.add(historyText);
+
+
+		*/
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Dimension displaySize = Toolkit.getDefaultToolkit().getScreenSize();
+		frame.setSize(300, 300);
+	}
+
+	public void show() {
+		frame.setLocationRelativeTo(null);
+		frame.setVisible(true);
+	}
+}

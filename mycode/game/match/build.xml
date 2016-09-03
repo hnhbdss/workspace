@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<project name="match"  default="compile">
+  <target name="compile">
+    <javac srcdir="src" destdir="bin"/>
+  </target>
+  <target name="run">
+    <java classname="com.demo.match.GUIServer" classpath="bin"/>
+  </target>
+</project>

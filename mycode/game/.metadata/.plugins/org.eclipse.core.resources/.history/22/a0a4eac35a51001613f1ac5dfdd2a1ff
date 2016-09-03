@@ -1,0 +1,18 @@
+package com.demo.match.comm.msg;
+
+import com.demo.match.comm.msg.IMessage;
+public class MessageFactory {
+	
+	public static final String MESSAGE_SYNC = "message:";
+	public static final String MESSAGE_INIT = "init:";
+	public void IMessage buildMessage(String content) {
+		if (content.startsWith(MESSAGE_SYNC)) {
+			switch(content.substring(MESSAGE_SYNC, MESSAGE_SYNC)) {
+			case MESSAGE_INIT:
+				return new InitMessage(content.substring(MESSAGE_SYNC));
+			default:
+				System.err.println("get invalid message:" + content);
+			}
+		}
+	}
+}

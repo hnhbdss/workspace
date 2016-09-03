@@ -1,0 +1,11 @@
+package com.demo.match.comm.msg;
+
+import com.demo.match.comm.msg.IMessage;
+public class MessageFactory {
+	
+	public void IMessage buildMessage(String content) {
+		if (content.)
+		
+	}
+
+}

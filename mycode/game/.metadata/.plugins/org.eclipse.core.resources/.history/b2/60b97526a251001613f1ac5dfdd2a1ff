@@ -1,0 +1,11 @@
+package com.demo.match.board;
+
+public class MatchClientSocketPeer {
+
+	private Socket socket;
+	private ChessColor color;
+	public MatchClientSocketPeer(Socket socket, ChessColor color) {
+		this.socket = socket;
+		this.color = color;
+	}
+}

@@ -1,0 +1,10 @@
+package com.demo.match.common;
+
+public class CloseUtils {
+
+	public void closeQuietly(Closeable res) {
+		try {
+			res
+		}
+	}
+}

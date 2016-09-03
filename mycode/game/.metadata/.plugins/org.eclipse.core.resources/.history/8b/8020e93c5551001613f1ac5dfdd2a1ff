@@ -1,0 +1,18 @@
+package com.demo.match;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class Server {
+
+	public void open(int port) {
+		try {
+			ServerSocket server = new ServerSocket(port);
+		}
+		catch(IOException e) {
+			throw new VisiableException(e);
+		}
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.demo.match.file;
+
+public class Server {
+
+	public Server() {
+		
+	}
+	
+	public void start(String filePath) {
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
+		if (reader != null) {
+			
+		}
+		
+	}
+}

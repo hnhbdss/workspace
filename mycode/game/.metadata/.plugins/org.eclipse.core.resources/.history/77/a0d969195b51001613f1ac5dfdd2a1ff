@@ -1,0 +1,13 @@
+package com.demo.match;
+
+import java.io.BufferedReader;
+
+public class MessageProcessor {
+	
+	private MessageFactory msgFactory = new MessageFactory();
+	
+	public void process(BufferedReader reader) {
+		String message = reader.readLine();
+		IMessage msg = 
+	}
+}

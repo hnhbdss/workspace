@@ -1,0 +1,30 @@
+package com.demo.match;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server {
+
+	private Thread acceptThread = null;
+	private Thread[] clientThreads = null;
+	public void open(int port) {
+		
+		acceptThread = new Thread() {
+			public void run() {
+				try {
+					while(true) {
+						ServerSocket server = new ServerSocket(port);
+						Socket client = server.accept();
+					}
+				}
+				catch(IOException e) {
+					throw new VisiableException(e);
+				}
+			}
+		};
+		acceptThread.start();
+		
+	}
+
+}

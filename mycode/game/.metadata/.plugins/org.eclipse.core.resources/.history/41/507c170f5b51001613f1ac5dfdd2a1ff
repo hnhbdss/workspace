@@ -1,0 +1,11 @@
+package com.demo.match;
+
+import java.io.BufferedReader;
+
+public class MessageProcessor {
+	
+	public void process(BufferedReader reader) {
+		String message = reader.readLine();
+		
+	}
+}

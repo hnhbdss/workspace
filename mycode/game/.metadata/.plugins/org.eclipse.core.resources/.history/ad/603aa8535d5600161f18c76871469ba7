@@ -1,0 +1,38 @@
+package com.demo.match;
+
+import java.awt.Color;
+import java.awt.EventQueue;
+import java.awt.Graphics;
+
+import javax.swing.*;
+
+public class MyFrame extends JFrame{
+	
+	public static class MyPanel extends JPanel {
+	
+		public void paintComponent(Graphics g) {
+			g.drawString("hello", 30, 30);
+		}
+	}
+	private MyPanel panel = new MyPanel();
+	private JButton button = new JButton();
+	public MyFrame() {
+		
+		this.getContentPane().add(panel);
+		this.getContentPane().add(button);
+		
+		panel.setBackground(Color.BLUE);
+		button.setText("hello");
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		MyFrame frame = new MyFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(300,300);
+		frame.setVisible(true);
+	}
+
+
+}

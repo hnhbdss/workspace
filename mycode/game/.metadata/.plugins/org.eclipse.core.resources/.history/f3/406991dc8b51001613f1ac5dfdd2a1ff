@@ -1,0 +1,11 @@
+package com.demo.match.msg;
+
+public class ClientMessage implements IMessage {
+
+	@Override
+	public void process() {
+
+	}
+
+
+}
