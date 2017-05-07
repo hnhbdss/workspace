@@ -1,0 +1,9 @@
+table filter {
+      chain input {
+      	    iifname lo accept
+      }
+      chain output {
+            iifname lo accept
+      }
+}
+
