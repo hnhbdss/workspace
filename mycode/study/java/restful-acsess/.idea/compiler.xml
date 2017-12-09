@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="restful-acsess" />
+        <module name="restful-access" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="restful-acsess" target="1.8" />
+      <module name="restful-access" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

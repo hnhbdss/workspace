@@ -8,7 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/aggregate/jetty-all-server/8.1.16.v20140903/jetty-all-server-8.1.16.v20140903-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.ideaLibSources/jetty-all-server-8.1.16.v20140903-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
